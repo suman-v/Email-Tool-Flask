@@ -1,0 +1,27 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun May  2 17:42:57 2021
+
+@author: Admin
+"""
+1. load_excel
+2. database
+3. email creator
+
+Training 
+    
+    1. Read File
+        a. Get path of folder for database file
+        b. read all excel sheets.
+        c. read all sheets in excel file.
+        d. create first and last name colum
+        e. convert upper case to lower case.
+
+        
+    2. Create database for company email formats
+    
+        a. get email , company, first and last name.
+        b. find pattern of email from pre-store formats.
+        c. return matching format along with first& last name, company name, designation.
+        d. example, email is first+last@domain.com
+        e. save all company formats in pickle file.      
